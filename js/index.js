@@ -107,5 +107,20 @@ Personage.prototype.pointStyle = {
 }
 
 document.personage = new Personage ( {
-      routePoints: document.routePoints
+      routePoints: [[ 100, 100 ], [ 300, 330 ], [ 500, 330 ], [ 200, 420 ]],
+      imgURL: "./images/koala.gif",
+      pointImage: "./images/palm.gif"
 })
+
+var btnStart = document.createElement('button')
+document.body.appendChild(btnStart)
+btnStart.innerText = "Start"
+btnStart.onclick = function (){
+  document.personage.interval = setInterval (document.personage.mc_personage.bind ( document.personage ), document.personage.delay )
+}
+var btn = document.createElement('button')
+document.body.appendChild(btn)
+btn.innerText = "Stop"
+btn.onclick = function (){
+  clearInterval (document.personage.interval)
+}
