@@ -1,29 +1,11 @@
-For my students
-( let's learn how to work with github )
+This is the task form Base Development course.
 
-You should clone this repo
+Repo was cloned from our teacher's one.
 
-Then try to change code so that personage starts move on button click
-
-You may change personage image
-
-You may change route
-
-You may change route points image
-
-Then you should index changes and commit them
-
-Then create repo on github
-
-Set this repo as remote
-
-Push your commit from local master branch to remote
-
-Then create gh-pages branch on remote
-
-Publish your mini-project and enjoy
+Then personage image, route points image and route were changed
+and buttons to start and stop personage's movement added.
 
 _______________________________________________
 This sample is published at
 
-https://garevna.github.io/js-base/
+https://hontar.github.io/Lesson_13/
